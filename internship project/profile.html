@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>User Profile</h2>
+
+    <form id="profileForm">
+
+        <input type="number" placeholder="Age" required>
+
+        <input type="date" required>
+
+        <input type="text" placeholder="Contact Number" required>
+
+        <button type="submit">Update Profile</button>
+
+    </form>
+
+</div>
+
+<script>
+
+document.getElementById("profileForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    alert("Profile Updated Successfully");
+
+});
+
+</script>
+
+</body>
+</html>
